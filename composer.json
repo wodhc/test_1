@@ -1,0 +1,49 @@
+{
+    "name": "yiisoft/yii2-app-advanced",
+    "description": "Yii 2 Advanced Project Template",
+    "keywords": [
+        "yii2",
+        "framework",
+        "advanced",
+        "project template"
+    ],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "yiisoft/yii2-imagine": "~2.1",
+        "yiisoft/yii2-httpclient": "~2.0",
+        "thanatosxia/yii2-wechat": "^1.1",
+        "thanatosxia/yii2-oss": "^1.1",
+        "yiisoft/yii2-redis": "*",
+        "firebase/php-jwt": "^5.0",
+        "flc/alidayu": "^2.0",
+        "yansongda/pay": "^2.2",
+        "paquettg/php-html-parser": "^1.7"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*",
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "~0.3.1",
+        "light/yii2-swagger": "2.0.0-alpha"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}

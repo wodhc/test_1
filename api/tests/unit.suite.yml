@@ -1,0 +1,6 @@
+suite_namespace: api\tests\unit
+actor: UnitTester
+modules:
+    enabled:
+        - Yii2:
+            part: [orm, email, fixtures]
